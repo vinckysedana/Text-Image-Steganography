@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>390</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #fff</string>
+  </property>
+  <widget class="QLabel" name="Title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0.0395455, y1:0.034, x2:1, y2:1, stop:0.193182 rgba(140, 160, 210, 255), stop:1 rgba(137, 255, 205, 255));
+font: 57 16pt &quot;Poppins Medium&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Pengamanan Data Dengan Gronsfeld Cipher
+dan Steganografi End Of File</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>291</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/newPrefix/image.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="encrypt">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>190</y>
+     <width>180</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins Medium</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+border-radius: 20px;
+	background-color: rgb(140, 160, 210);
+color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+background-color: rgb(163, 188, 245)
+}</string>
+   </property>
+   <property name="text">
+    <string>Penyisipan</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="decrypt">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>270</y>
+     <width>180</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins Medium</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+border-radius: 20px;
+	background-color: rgb(140, 160, 210);
+color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+background-color: rgb(163, 188, 245)
+}</string>
+   </property>
+   <property name="text">
+    <string>Ekstraksi</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="keluar">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>340</y>
+     <width>90</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Poppins</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color: rgb(222, 0, 0);
+border-radius: 12px;
+color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+background-color: rgb(255, 0, 0)
+}</string>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>131</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>SF UI  Text</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+background-color: #fff;
+}</string>
+   </property>
+   <property name="text">
+    <string>Created By. Kadek Vincky Sedana</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="C:/Users/User/Desktop/Tes/source.qrc"/>
+  <include location="source.qrc"/>
+ </resources>
+ <connections/>
+</ui>
